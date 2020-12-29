@@ -1,0 +1,31 @@
+#section1 {
+    background-image: url("img/drawing.svg");
+    background-size: cover;
+}
+
+#section2 {
+    background-color: #296372;
+    background-image: url("img/wave2.svg"), url("img/wave.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+#section3 {
+    background-color: #4d9bae;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+p {
+    font-size: x-large;
+}
+
+.card {
+    background-color: #296372 !important;
+}
+
+.card-title, .card-text {
+    color: white;
+}

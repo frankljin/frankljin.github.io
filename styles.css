@@ -14,6 +14,11 @@
     background-color: #4d9bae;
 }
 
+#section4 {
+    background: rgb(41,99,114);
+    background: linear-gradient(360deg, rgba(41,99,114,1) 41%, rgba(77,155,174,1) 100%);
+}
+
 #profile {
     border-radius: 50%;
 }
@@ -23,9 +28,13 @@ p {
 }
 
 .card {
-    background-color: #296372 !important;
+    background-color: #4d9bae !important;
 }
 
+#card2 {
+    background-color: #296372 !important;
+}
 .card-title, .card-text {
     color: white;
 }
+

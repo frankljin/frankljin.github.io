@@ -25,12 +25,21 @@
 
 p {
     font-size: x-large;
+    color: white;
+}
+
+h1, h3 {
+    color: white;
 }
 
 .card {
     background-color: #4d9bae !important;
 }
 
+.card:hover, #card2:hover {
+    background-color: #418394 !important;
+    transform: scale(1.05);
+}
 #card2 {
     background-color: #296372 !important;
 }

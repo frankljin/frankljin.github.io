@@ -1,135 +1,157 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Frank's Portfolio</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="jquery.pagepiling.js"></script>
-    
-    
-  </head>
-  <body onload="document.body.style.opacity='1'">
-    <div id="pagepiling" class="myHiddenDiv">
-      <div class="section section1">"
-        <div class="text-center">
-          <h1 class="display-1">Frank Jin</h1>
-          <h5>1B Computer Science @ University of Waterloo</h5>
-        </div>
-      </div>
-      <div class="section section2">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <h1>Hello! I'm Frank. 👋</h1>
-              <p>
-                I am a passionate student from Calgary, Alberta
-                learning web development and always looking to try new things. Currently, I am exploring UI design and React.js, but also have experience with back end development. Feel free to connect with me below! 🙂
-              </p>
-              <button type="button" class="btn btn-info" onclick="document.location='https://ca.linkedin.com/in/frank-jin-084b7b189'">LinkedIn</button>
-              <button type="button" class="btn btn-info" onclick="document.location='mailto:f7jin@uwaterloo.ca'">Email</button>
-              <button type="button" class="btn btn-info" onclick="document.location='https://github.com/frankljin'">GitHub</button>
-            </div>
-            <div class="col-sm">
-              <img id="profile" src="img/profile.jpg" class="float-right" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="section3">
-          <div class="container">
-            <h1>Projects 💻</h1>
-            <p>Here is a showcase of some of my projects I've been working on. This page is currently under construction.</p>
-            <div class="card-deck">
-                </div>
-                <div class="card shadow-lg">
-                  <a href="https://github.com/frankljin/Retaste"><img class="card-img-top" src="img/retaste.png" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h3 class="card-title">Retaste</h3>
-                    <p class="card-text">Search for recipes with ingredients you already have.</p>
-                  </div>
-                </div>
-                <div class="card shadow-lg">
-                  <a href="https://github.com/frankljin/TutorList"><img class="card-img-top" src="img/tutorlist.png" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h3 class="card-title">TutorList</h3>
-                    <p class="card-text">Convenient tutoring solution for modern day needs.</p>
-                  </div>
-                </div>
-                <div class="card shadow-lg">
-                  <a href="https://github.com/frankljin/shortered"><img class="card-img-top" src="img/shortered.png" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h3 class="card-title">Shortered.me</h3>
-                    <p class="card-text">URL-shortening web application.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="section" id="section4">
-        <div class="container">
-          <h1>Interests 🎲</h1>
-          <p>Here are a couple of things I am interested in that I would like to share!</p>
-          <div class="card-deck">
-              <div class="card shadow-lg" id="card2">
-                <img class="card-img-top" src="img/ski.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Skiing</h3>
-                  <p class="card-text">Norquay ski resort overlooking Banff, AB. Some other favourites include Sunshine, Lake Louise, and Panorama.</p>
-                </div>
-              </div>
-              <div class="card shadow-lg" id="card2">
-                <img class="card-img-top" src="img/minecraft.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Gaming</h3>
-                  <p class="card-text">An interesting quarantine project from early 2020 along with classmates - a full-scale replica of my high school on Minecraft.</p>
-                </div>
-              </div>
-              <div class="card shadow-lg" id="card2">
-                <img class="card-img-top" src="img/bb8.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">3D Modelling/Fine Arts</h3>
-                  <p class="card-text">I am interested in all types of digital and traditional art. Here is a model of BB-8 from Star Wars that I created using Autodesk Inventor.</p>
-                </div>
-              </div>
-              
-            </div>
-        </div>
-        
-        
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Frank's Portfolio</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.pagepiling.js"></script>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  <div id="pagepiling" class="myHiddenDiv">
+    <div class="section section1">
+      "
+      <div class="text-center">
+        <h1 class="display-1">Frank Jin</h1>
+        <h5>1B Computer Science @ University of Waterloo</h5>
       </div>
     </div>
-    
-    <script>
-      
-      $(document).ready(function () {
-        $("#pagepiling").pagepiling();
-      });
+    <div class="section section2">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1>Hello! I'm Frank. 👋</h1>
+            <p>
+              I am a passionate student from Calgary, Alberta learning web
+              development and always looking to try new things. Currently, I
+              am exploring UI design and React.js, but also have experience
+              with back end development. Feel free to connect with me below!
+              🙂
+            </p>
+            <button type="button" class="btn btn-info"
+              onclick="document.location='https://ca.linkedin.com/in/frank-jin-084b7b189'">
+              LinkedIn
+            </button>
+            <button type="button" class="btn btn-info" onclick="document.location='mailto:f7jin@uwaterloo.ca'">
+              Email
+            </button>
+            <button type="button" class="btn btn-info" onclick="document.location='https://github.com/frankljin'">
+              GitHub
+            </button>
+          </div>
+          <div class="col-sm">
+            <img id="profile" src="img/profile.jpg" class="float-right" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="section" id="section3">
+    <div class="container">
+      <br/>
+      <h1>Projects 💻</h1>
+      <p>
+        Here is a showcase of some of my projects I've been working on. 
+      </p>
+      <div class="card-deck">
+        <div class="card shadow-lg">
+          <a href="https://github.com/frankljin/Retaste"><img class="card-img-top" src="img/retaste.png"
+              alt="Card image cap" /></a>
+          <div class="card-body">
+            <h3 class="card-title">Retaste</h3>
+            <p class="card-text">
+              Search for recipes with ingredients you already have.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow-lg">
+          <a href="https://github.com/frankljin/TutorList"><img class="card-img-top" src="img/tutorlist.png"
+              alt="Card image cap" /></a>
+          <div class="card-body">
+            <h3 class="card-title">TutorList</h3>
+            <p class="card-text">
+              Convenient tutoring solution for modern day needs.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow-lg">
+          <a href="https://github.com/frankljin/shortered"><img class="card-img-top" src="img/shortered.png"
+              alt="Card image cap" /></a>
+          <div class="card-body">
+            <h3 class="card-title">Shortered.me</h3>
+            <p class="card-text">URL-shortening web application.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="section4">
+    <div class="container">
+      <br/>
+      <h1>Interests 🎲</h1>
+      <p>
+        Here are a couple of things I am interested in that I would like to
+        share!
+      </p>
+      <div class="card-deck">
+        <div class="card shadow-lg" id="card2">
+          <img class="card-img-top" src="img/ski.png" alt="Card image cap" />
+          <div class="card-body">
+            <h3 class="card-title">Skiing</h3>
+            <p class="card-text">
+              Norquay ski resort overlooking Banff, AB. Some other
+              favourites include Sunshine, Lake Louise, and Panorama.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow-lg" id="card2">
+          <img class="card-img-top" src="img/minecraft.png" alt="Card image cap" />
+          <div class="card-body">
+            <h3 class="card-title">Gaming</h3>
+            <p class="card-text">
+              An interesting quarantine project from early 2020 along with
+              classmates - a full-scale replica of my high school on
+              Minecraft.
+            </p>
+          </div>
+        </div>
+        <div class="card shadow-lg" id="card2">
+          <img class="card-img-top" src="img/bb8.png" alt="Card image cap" />
+          <div class="card-body">
+            <h3 class="card-title">3D Modelling/Fine Arts</h3>
+            <p class="card-text">
+              I am interested in all types of digital and traditional art.
+              Here is a model of BB-8 from Star Wars that I created using
+              Autodesk Inventor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
 
-      
-      
-    </script>
-      
-  </body>
+  <script>
+    $(document).ready(function () {
+      $("#pagepiling").pagepiling();
+    });
+  </script>
+</body>
+
 </html>

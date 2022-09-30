@@ -1,57 +1,39 @@
-import { PageSlides, SlideParallaxType } from "react-page-slides";
 import styles from "./App.module.css";
+import Nav from "./components/Nav.js" 
+import { Link } from "react-router-dom";
+import { FaLinkedin,FaGithub } from 'react-icons/fa';
+import { GrMail } from "react-icons/gr"
 
 const App = () => {
-  const slides = [
-    {
-      content: (
-        <div className={styles.main}>
-        <div>
-          <h1 className={styles.title}>Frank Jin</h1>
-       </div>
-          
-          <p className={styles.description}>
-            Computer Science @ University of Waterloo
-          </p>
-        </div>
-      ),
-      style: {
-        backgroundColor: "#1F1B24",
-      },
-    },
-    {
-      content: (
-        <div className={styles.main}>
-        <div className={styles.card}>
-        <p className={styles.commonText}>Hi there, I'm Frank. I'm currently in my <span className={styles.highlight}>2nd</span> year at the <span className={styles.highlight}>University of Waterloo</span> as an undergraduate. I have interests in full stack development, UI/UX design, and mathematical applications in computer science.<br /><br />
-        I'm currently working at <span className={styles.highlight}>HSBC</span> as a Full Stack Engineer and <span className={styles.highlight}>McMaster University</span> as a Software Developer. <br /><br />
-        Let's chat!</p>
-        <p><a href="http://linkedin.com/in/frankljin" style={{"text-decoration": "none"}}><span className={styles.highlight}>LinkedIn</span></a></p>
-        <p><a href="http://github.com/frankljin" style={{"text-decoration": "none"}}><span className={styles.highlight}>GitHub</span></a></p>
-        <p><a href="mailto:f7jin@uwaterloo.ca" style={{"text-decoration": "none"}}><span className={styles.highlight}>Email</span></a></p>
-        </div>
-        </div>
-      ),
-      style: {
-        backgroundColor: "#1F1B24",
-        backgroundImage: 'url("wave.svg")',
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "auto",
-        backgroundPosition: "bottom",
-      },
-    },
-  ];
+  
+  return (<>
+    {/* <Nav /> */}
+    <div class={styles.main}>
+  
+    <h1>Frank Jin</h1>
+    <hr />
+    <Link to="/notes">Notes</Link>&nbsp; &nbsp; <Link to="/experience">Experience</Link>
+    <hr />
+    <h3>About</h3>
+    <p>Hello! I am a 3rd year undergraduate <span className={styles.highlight}>Computer Science</span> student at the <span className={styles.highlight}>University of Waterloo</span>. I have experience in <span className={styles.highlight}>full stack development and data engineering</span>, and enjoy learning the mathematical foundations of computer science as well as pure mathematics. I enjoy playing <a href="https://jstris.jezevec10.com/u/lejin">tetris (jstris)</a> and badminton in my spare time.</p>
+    <h3>Experience</h3>
+    <ul>
+      <li>(Sept 2022 - Present): Software Engineer Intern @ <span className={styles.highlight}>Squarepoint Capital</span>: Alpha Data, Data Operations </li>
+      <li>(Jan 2022 - Apr 2022): Full Stack Engineer Intern @ <span className={styles.highlight}>HSBC</span>: Markets and Securities Services</li>
+      <li>(Jan 2022 - Aug 2022): Software Developer @ <span className={styles.highlight}>McMaster University</span>: CANMOD / Theoretical Biology Lab </li>
+      <li>(May 2021 - Aug 2021): Full Stack Developer Intern @ <span className={styles.highlight}>Heka Health</span></li>
+    </ul>
+    {/* <h3>Notes</h3>
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1qqqvoNJs-DneNXHxvKwLhChJ0RL6K3np/view?usp=sharing">CS 245 (Logic) Notes</a></li>
+      <li><a href="https://drive.google.com/file/d/1lhbL2y5n84QJrCqmWH0yJvU9JQ5IbQsE/view?usp=sharing">MATH 138 (Calculus II) Reference Sheet</a></li>
+      <li><a href="https://drive.google.com/file/d/1GaNcVtxBhuqgt3HIbUm6BKXqAsVYsLr0/view?usp=sharing">MATH 237 (Calculus III) Reference Sheet</a></li>
+    </ul> */}
+    <h3>Contact</h3>
+    <p><a href="https://linkedin.com/in/frankljin"><FaLinkedin size={25} /></a>&nbsp; &nbsp;<a href="https://github.com/frankljin"><FaGithub size={25} /></a>&nbsp; &nbsp;<a href="mailto:f7jin@uwaterloo.ca"><GrMail size={25} /></a></p>
+  </div>
 
-  return (
-    <PageSlides
-      enableAutoScroll={true}
-      transitionSpeed={1000}
-      slides={slides}
-      parallax={{
-        offset: 0.6,
-        type: SlideParallaxType.reveal,
-      }}
-    />
+  </>
   );
 };
 

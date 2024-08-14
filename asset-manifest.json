@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.3d82cb49.css",
-    "main.js": "/static/js/main.e4ac2718.js",
+    "main.js": "/static/js/main.b687684e.js",
     "static/js/787.83f616d0.chunk.js": "/static/js/787.83f616d0.chunk.js",
     "static/media/STAT_231.pdf": "/static/media/STAT_231.1f31bf820b622a875a7e.pdf",
     "static/media/CS_370.pdf": "/static/media/CS_370.189e17d813e09cd4c44c.pdf",
     "static/media/CS_245.pdf": "/static/media/CS_245.366924c1391d3e0594d6.pdf",
     "static/media/MATH_235.pdf": "/static/media/MATH_235.3fae4a7917d1daf32ad0.pdf",
+    "static/media/MATH_138.pdf": "/static/media/MATH_138.350ae99df9a35e72a1fe.pdf",
     "static/media/MATH_237.pdf": "/static/media/MATH_237.1e9a414c2b2d23ca2246.pdf",
-    "static/media/MATH_138.pdf": "/static/media/MATH_138.112ebccd1f53e0563abe.pdf",
     "static/media/Jin_Frank_2022.pdf": "/static/media/Jin_Frank_2022.be35ba863ee935770e32.pdf",
     "index.html": "/index.html",
     "main.3d82cb49.css.map": "/static/css/main.3d82cb49.css.map",
-    "main.e4ac2718.js.map": "/static/js/main.e4ac2718.js.map",
+    "main.b687684e.js.map": "/static/js/main.b687684e.js.map",
     "787.83f616d0.chunk.js.map": "/static/js/787.83f616d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d82cb49.css",
-    "static/js/main.e4ac2718.js"
+    "static/js/main.b687684e.js"
   ]
 }

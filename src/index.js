@@ -18,7 +18,7 @@ ReactDOM.render(
     <Router>
     <Routes>
           <Route path="/notes" element={<Notes />}/>
-          <Route path="/experience" element={<Experience />}/>
+          {/* <Route path="/experience" element={<Experience />}/> */}
           <Route path="/" element={<App />}/>
           
         </Routes>

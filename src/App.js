@@ -12,7 +12,7 @@ const App = () => {
   
     <h1>Frank Jin</h1>
     <hr />
-    <Link to="/notes">Notes</Link>&nbsp; &nbsp; <Link to="/experience">Experience</Link>
+    {/* <Link to="/notes">Notes</Link>&nbsp; &nbsp; <Link to="/experience">Experience</Link> */}
     <hr />
     <h3>About</h3>
     <p>Hello! I am a 4th year undergraduate <span className={styles.highlight}>Computer Science</span> student at the <span className={styles.highlight}>University of Waterloo</span>. I have experience in <span className={styles.highlight}>full stack development and data engineering</span>, and enjoy learning the mathematical foundations of computer science as well as pure mathematics. I enjoy playing <a href="https://jstris.jezevec10.com/u/lejin">tetris (jstris)</a> and badminton in my spare time.</p>

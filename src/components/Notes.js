@@ -23,7 +23,7 @@ const Notes = () => {
       <li>MATH 138 - Calculus 2: <Link to={MATH138} target="_blank">summary</Link></li>
       <li>MATH 235 - Linear Algebra 2: <Link to={MATH235} target="_blank">summary</Link></li>
       <li>MATH 237 - Calculus 3: <Link to={MATH237} target="_blank">summary</Link></li>
-      <li>STAT 231 - Statistics: <Link to={MATH237} target="_blank">summary</Link></li>
+      <li>STAT 231 - Statistics: <Link to={MATH237} target="_blank">course notes</Link></li>
     </ul>
     <h3>Computer Science</h3>
     <ul>

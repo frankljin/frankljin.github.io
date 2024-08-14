@@ -15,7 +15,7 @@ const Notes = () => {
   
     <h1>Notes</h1>
     <hr />
-    {/* <Link to="/">Home</Link>&nbsp; &nbsp; <Link to="/experience">Experience</Link> */}
+    <Link to="/">Home</Link>
     <hr />
     <p>Here are some notes I have taken for courses:</p>
     <h3>Mathematics</h3>

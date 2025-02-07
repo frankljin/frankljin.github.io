@@ -18,7 +18,7 @@ const Notes = () => {
     <hr />
     <Link to="/">Home</Link>
     <hr />
-    <p>Here are some notes I have taken for courses:</p>
+    <p>Here are some notes I have taken for courses (not actively maintained):</p>
     <h3>Mathematics</h3>
     <ul>
       <li>MATH 138 - Calculus 2: <Link to={MATH138} target="_blank">summary</Link></li>
@@ -26,14 +26,14 @@ const Notes = () => {
       <li>MATH 237 - Calculus 3: <Link to={MATH237} target="_blank">summary</Link></li>
       <li>MATH 239 - Introduction to Combinatorics: <Link to={MATH239} target="_blank">summary</Link></li>
       <li>STAT 231 - Statistics: <Link to={STAT231} target="_blank">course notes</Link></li>
-      <li>MH 3701 (NTU) - Basic Optimization: Coming Soon</li>
-      <li>CO 331 - Coding Theory: Coming Soon</li>
+      {/* <li>MH 3701 (NTU) - Basic Optimization: Coming Soon</li>
+      <li>CO 331 - Coding Theory: Coming Soon</li> */}
     </ul>
     <h3>Computer Science</h3>
     <ul>
         <li>CS 245 - Logic and Computation: <Link to={CS245} target="_blank">course notes</Link></li>
         <li>CS 370 - Numerical Computation: <Link to={CS370} target="_blank">course notes</Link></li>
-        <li>CZ 4041 (NTU) - Machine Learning: Coming Soon</li>
+        {/* <li>CZ 4041 (NTU) - Machine Learning: Coming Soon</li> */}
     </ul>
   </div>
 
